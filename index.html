@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Jogo da velha</h1>
+
+    <div class="registro">
+        <input type="text"  id="jogadorX" placeholder="Jogador X">
+        <input type="text"  id="jogadorO" placeholder="Jogador O">
+        <input type="number" id="melhorDe" placeholder="Melhor de: ">
+        <button id="registro">Registrar</button>
+    </div>
+
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+
+    <p>Vitorias de <span id="nomeJogadorX"></span>(X): <span id="contX"></span></p>
+    <p>Vitorias de <span id="nomeJogadorO"></span>(O): <span id="contO"></span></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
