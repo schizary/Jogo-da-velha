@@ -1,4 +1,7 @@
-
+let play = true
+let move = 1
+let contO = 0
+let contX = 0 
 $('#registro').click(function(){
     let nomeJogadorX = $('#jogadorX').val()
     let nomeJogadorO = $('#jogadorO').val()
